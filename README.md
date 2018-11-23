@@ -48,7 +48,7 @@ __NB06__ is meant to give an idea on how VNNS, and more specifically its differe
 <br><br>
 __NB07__ is an Appendix, providing basic examples on individual methods associated with the four classess forming VNNS. The intent of NB07 is to facilitate the understanding of VNNS details.<br>
 
-__Detailed outline of example notebooks:__
+__Detailed outline of the example notebooks:__
 - [__NB00__](https://nbviewer.jupyter.org/github/Akarvardar/VERSATILE_NEURAL_NETWORK_SOLVER/blob/master/NB00.ipynb): Network with no hidden layers (logistic regression)
 - [__NB01__](https://nbviewer.jupyter.org/github/Akarvardar/VERSATILE_NEURAL_NETWORK_SOLVER/blob/master/NB01.ipynb): Network with one hidden layer
 - [__NB02__](https://nbviewer.jupyter.org/github/Akarvardar/VERSATILE_NEURAL_NETWORK_SOLVER/blob/master/NB02.ipynb): Network with two hidden layers
@@ -59,15 +59,15 @@ __Detailed outline of example notebooks:__
 - [__NB07__](https://nbviewer.jupyter.org/github/Akarvardar/VERSATILE_NEURAL_NETWORK_SOLVER/blob/master/NB07.ipynb): Appendix - Simple examples on individual methods
 
 ## Datasets
-The datasets we will be using in example notebooks are listed below along with their number of samples, features, and classes. We have three sets of data grouped based on the file sizes. For "Medium" and "Big" files, independent test files are available as well as the training files. In most instances, the number of samples in the test files is about the quarter of those in the training files:
+The datasets we will be using in the example notebooks are listed below along with their number of samples, features, and classes. We have three sets of data ("Small", "Medium", and "Big") grouped in three different folders under folder "Data" based on the file sizes.  For "Medium" and "Big" files, independent test files are available along with the training files. In most instances, the number of samples in the test files is about the quarter of those in the training files:
 
 <br>![dataspecs image](Images/DataSpecs.png)<br>
 
-- __"Medium"__ files are those we will use the most heavily in the example notebooks. In this set of files, the number of features is equal to 2, hence it is possible to visualize the decision boundary and overlay it with scatter plots. The files have varying complexity as suggested by the filenames. Three of the files have more than 2 classes. Number of samples is mostly at 100-a few 100 range. Below the scatter plots for the 15 "medium" files are shown and different classes were distinguished with different colors. 
+- __"Medium"__ files are those we will use the most heavily in the example notebooks. In this set of files, the number of features is equal to 2, hence it is possible to visualize the decision boundary and overlay it with scatter plots. The files have varying complexity as suggested by the filenames. Three of the files have more than 2 classes. Number of samples varies from around 100 to a few 100. Below the scatter plots for the 15 "Medium" files are shown and different classes were distinguished with different colors. 
 
 <br>![scatter image](Images/TrainingDataSets.png)<br>
 
-- __"Big"__ files are typically distinguished with their very high number of features. In addition, two of the files feature number of classes up to 6 and 10. Also the number of samples is above 1000 for two of the files. "Big" files were only used in NB06 and NB07. This particular folder, unlike the folders Medium and Small, could not be uploaded under Data folder due to its size.
+- __"Big"__ files are typically distinguished by their very high number of features. In addition, two of the files feature number of classes up to 6 and 10. Also the number of samples is above 1000 for two of the files. "Big" files were only used in NB06 and NB07. This particular folder, unlike the folders Medium and Small, could not be uploaded under Data folder due to its size.
 <br><br>
 - __"Small"__ files have typically less than 10 samples and they were used only in NB07 to explain some of the methods of class PreProcess().
 
@@ -77,15 +77,3 @@ The datasets we will be using in example notebooks are listed below along with t
 - Eric Matthews' book, Python Crash Course: A Hands-On, Project-Based Introduction to Programming,
 - Sebastian Raschka's book, Python Machine Learning,
 - Ng's Coursera materials, Raschka's book, and scikit-learn were also acknowledged for datasets. 
-
-
-
-
-
-
-
-
-
-
-
-
