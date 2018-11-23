@@ -11,11 +11,11 @@ Specific capabilities:
 - Leverages a custom gradient descent implementation as well as the built-in scipy minimization algorithms to solve the network parameters, 
 - Makes predictions based on calculated network parameters and reports the training and test accuracies,
 - Features many plotting and reporting functions to reveal the details associated with calculations,
-- Sets the optimal values for key hyperparameters automatically:  
-    - Learning rate alpha for gradient descent,
+- Sets automatically the optimal values for key hyperparameters :  
+    - Learning-rate (alpha) for gradient descent,
     - Degree for polynomial expansion,
     - Hidden unit configuration,
-    - Regularization parameter lambda.
+    - Regularization parameter (lambda.)
     
 ## Script organization
  VNNS is made of four classes:
