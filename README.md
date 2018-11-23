@@ -19,10 +19,10 @@ Specific capabilities:
     
 ## Script organization
  VNNS is made of four classes:
- -__PreProcess()__: Processes the raw input data and makes the feature matrix (X) and target vector (y) ready in their final form for the solver.
- -__DeepSolve()__: Starting with a feature matrix and target vector, computes the network parameters (theta) together with prediction and scoring capabilities.
- -__DeepCombine()__: Combines classes PreProcess() and DeepSolve() and complements them with plotting and report generating functions.
- -__DeepLearnAuto()__: Augments the capabilities of class DeepCombine() by automated tuning of polynomial degree, hidden-unit configuration, and regularization parameter lamda. 
+ - __PreProcess()__: Processes the raw input data and makes the feature matrix (X) and target vector (y) ready in their final form for the solver.
+ - __DeepSolve()__: Starting with a feature matrix and target vector, computes the network parameters (theta) together with prediction and scoring capabilities.
+ - __DeepCombine()__: Combines classes PreProcess() and DeepSolve() and complements them with plotting and report generating functions.
+ - __DeepLearnAuto()__: Augments the capabilities of class DeepCombine() by automated tuning of polynomial degree, hidden-unit configuration, and regularization parameter lamda. 
 
 VNNS class organization is schematized below:
 
