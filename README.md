@@ -56,10 +56,12 @@ __Detailed outline of example notebooks:__
 - [__NB07__](https://nbviewer.jupyter.org/github/Akarvardar/VERSATILE_NEURAL_NETWORK_SOLVER/blob/master/NB07.ipynb): Appendix - Simple examples on individual methods
 
 ## Datasets
-The datasets we will be using in example notebooks are listed below along with their number of samples, features, and classes. We have three sets of data grouped based on the file sizes. For "Medium" and "Big" files, independent test files are available as well as the training files. In most instances, the number of samples in the test files is about the quarter of those in the training files:<br>
-![dataspecs image](Images/DataSpecs.png)
-- __"Medium"__ files are those we will use the most heavily in the example notebooks. In this set of files, the number of features is equal to 2, hence it is possible to visualize the decision boundary and overlay it with scatter plots. The files have varying complexity as suggested by the filenames. Three of the files have more than 2 classes. Number of samples is mostly at 100-a few 100 range. Below the scatter plots for the 15 "medium" files are shown and different classes were distinguished with different colors. <br>
-![scatter image](Images/TrainingDataSets.png)
+The datasets we will be using in example notebooks are listed below along with their number of samples, features, and classes. We have three sets of data grouped based on the file sizes. For "Medium" and "Big" files, independent test files are available as well as the training files. In most instances, the number of samples in the test files is about the quarter of those in the training files:
+
+<br>![dataspecs image](Images/DataSpecs.png)<br>
+
+- __"Medium"__ files are those we will use the most heavily in the example notebooks. In this set of files, the number of features is equal to 2, hence it is possible to visualize the decision boundary and overlay it with scatter plots. The files have varying complexity as suggested by the filenames. Three of the files have more than 2 classes. Number of samples is mostly at 100-a few 100 range. Below the scatter plots for the 15 "medium" files are shown and different classes were distinguished with different colors. 
+<br>![scatter image](Images/TrainingDataSets.png)<br>
 - __"Big"__ files are typically distinguished with their very high number of features. In addition, two of the files feature number of classes up to 6 and 10. Also the number of samples is above 1000 for two of the files. "Big" files were only used in NB06 and NB07.
 <br><br>
 - __"Small"__ files have typically less than 10 samples and they were used only in NB07 to explain some of the methods of class PreProcess().
