@@ -1,7 +1,7 @@
 # VERSATILE NEURAL NETWORK SOLVER (VNNS)
 [VNNS](https://nbviewer.jupyter.org/github/Akarvardar/VERSATILE_NEURAL_NETWORK_SOLVER/blob/master/vnns.ipynb) is a neural network solver written in Python 3.5. Key features of the code, its organization, the content of the example notebooks, and the datasets used to generate the examples were explained in the following.
 
-_**For best readability, it is recommended to open the notebooks in this repository under nbviewer using the links provided in this README file rather than rendering them under Github. Also, Chrome is the browser of choice.**_
+_For best readability, it is recommended to open the notebooks in this repository under nbviewer using the links provided in this README file rather than rendering them under Github. Also, Chrome is the browser of choice._
 
 ## Key features
 The primary function of VNNS is to find out the optimal set of hyperparameters for a particular classification problem and then calculate the network parameters using those hyperparameters. VNNS seeks to minimize the user effort across the entire classification process, from the pre-processing of a .csv datafile to achieving a robust model along with the associated training and test scores. Model accuracy and simplicity are co-optimized in VNNS. 
