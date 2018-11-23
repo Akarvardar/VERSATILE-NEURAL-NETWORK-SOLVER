@@ -26,7 +26,7 @@ Specific capabilities:
 
 
 VNNS class organization is schematized below:
-<br>![vnnsorg image](Images/VNNSorganization.png){:height="50%" width="50%"}
+<br>![vnnsorg image](Images/VNNSorganization.png,s=300)
 <br>
 The modularity of VNNS is such that, if needed, users can easily modify the algorithms, for instance those used in optimal hyperparameter search, without disturbing high level workings of the script.
 
