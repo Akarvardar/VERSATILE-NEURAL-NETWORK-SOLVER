@@ -19,15 +19,14 @@ Specific capabilities:
     
 ## Script organization
  VNNS is made of four classes:
-
-    PreProcess(): Processes the raw input data and makes the feature matrix (X) and target vector (y) ready in their final form for the solver.
-    DeepSolve(): Starting with a feature matrix and target vector, computes the network parameters (theta) together with prediction and scoring capabilities.
-    DeepCombine(): Combines classes PreProcess() and DeepSolve() and complements them with plotting and report generating functions.
-    DeepLearnAuto(): Augments the capabilities of class DeepCombine() by automated tuning of polynomial degree, hidden-unit configuration, and regularization parameter lamda. 
+ -__PreProcess()__: Processes the raw input data and makes the feature matrix (X) and target vector (y) ready in their final form for the solver.
+ -__DeepSolve()__: Starting with a feature matrix and target vector, computes the network parameters (theta) together with prediction and scoring capabilities.
+ -__DeepCombine()__: Combines classes PreProcess() and DeepSolve() and complements them with plotting and report generating functions.
+ -__DeepLearnAuto()__: Augments the capabilities of class DeepCombine() by automated tuning of polynomial degree, hidden-unit configuration, and regularization parameter lamda. 
 
 
 VNNS class organization is schematized below:
-<br><img src="Images/VNNSorganization.png", width=500, align='center'>
+<br>![vnnsorg image](Images/VNNSorganization.png)
 The modularity of VNNS is such that, if needed, users can easily modify the algorithms, for instance those used in optimal hyperparameter search, without disturbing high level workings of the script.
 
 ## Example Notebooks
@@ -57,9 +56,9 @@ __Detailed outline of example notebooks:__
 
 ## Datasets
 The datasets we will be using in example notebooks are listed below along with their number of samples, features, and classes. We have three sets of data grouped based on the file sizes. For "Medium" and "Big" files, independent test files are available as well as the training files. In most instances, the number of samples in the test files is about the quarter of those in the training files:<br>
-<img src="Images/DataSpecs.png", width=700, align='center'>
+![dataspecs image](Images/DataSpecs.png)
 - __"Medium"__ files are those we will use the most heavily in the example notebooks. In this set of files, the number of features is equal to 2, hence it is possible to visualize the decision boundary and overlay it with scatter plots. The files have varying complexity as suggested by the filenames. Three of the files have more than 2 classes. Number of samples is mostly at 100-a few 100 range. Below the scatter plots for the 15 "medium" files are shown and different classes were distinguished with different colors. <br>
-<img src="Images/TrainingDataSets.png", width=900, align='left'>
+![scatter image](Images/TrainingDataSets.png)
 - __"Big"__ files are typically distinguished with their very high number of features. In addition, two of the files feature number of classes up to 6 and 10. Also the number of samples is above 1000 for two of the files. "Big" files were only used in NB06 and NB07.
 <br><br>
 - __"Small"__ files have typically less than 10 samples and they were used only in NB07 to explain some of the methods of class PreProcess().
