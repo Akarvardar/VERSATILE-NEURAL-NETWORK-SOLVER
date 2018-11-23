@@ -73,5 +73,5 @@ The datasets we will be using in the example notebooks are listed below along wi
 
 ## Acknowledgments
 - Andrew Ng's Machine Learning Course and Deep Learning Specialization in Coursera have been by far the most useful resources to put together VNNS. Many datasets from those courses were also used to demo VNNS.
-- Sebastian Raschka's book, Python Machine Learning -also acknowledged for datasets along with those from scikit-learn
+- Sebastian Raschka's book, Python Machine Learning. Also acknowledged for its datasets along with those from scikit-learn.
 - Eric Matthews' book, Python Crash Course: A Hands-On, Project-Based Introduction to Programming.
