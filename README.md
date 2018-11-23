@@ -24,10 +24,8 @@ Specific capabilities:
  -__DeepCombine()__: Combines classes PreProcess() and DeepSolve() and complements them with plotting and report generating functions.
  -__DeepLearnAuto()__: Augments the capabilities of class DeepCombine() by automated tuning of polynomial degree, hidden-unit configuration, and regularization parameter lamda. 
 
-
 VNNS class organization is schematized below:
-
-<br><img src="/Images/VNNSorganization.png"  width="800">
+<br><img src="/Images/VNNSorganization.png"  width="400"><br>
 The modularity of VNNS is such that, if needed, users can easily modify the algorithms, for instance those used in optimal hyperparameter search, without disturbing high level workings of the script.
 
 ## Example Notebooks
