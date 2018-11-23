@@ -38,7 +38,7 @@ The first five notebooks (__NB00 to NB04__) provide results on the 15 datasets w
 - Separate out the datasets into two groups depending on whether their model is "satisfactory" or not. The criterion we use for this categorization is the sum of training and test scores (each between 0 and 1) being higher than 1.8. This is an arbitrary threshold which proved to be convenient. 
 - Move the datasets for which the current network has not been able to provide a satisfactory model to the next notebook where the network configuration is made gradually more complex. <br> 
 - Repeat this until NB04.
-</font> 
+
 In addition to examplifying how VNNS performs on nets with increased size, this particular strategy also allows to comprehend how increased number of hidden layers/units enables more sophisticated models that are required for rather complex datasets. <br><br>
 Focus of __NB05__ is the comparison of different minimization algorithms. While NB00 to NB04 employs a custom implementation of gradient descent (GD), NB05 compares GD with the scipy's built-in algorithms TNC, SLSQP, CG, BFGS, and L-BFGS-B. <br><br>
 __NB06__ is meant to give an idea on how VNNS, and more specifically its different minimization algorithms, perform against relatively large datasets with high number of samples, features, and number of classes. 
@@ -47,13 +47,13 @@ __NB07__ is an Appendix, providing basic examples on individual methods associat
 
 __Detailed outline of example notebooks:__
 - [__NB00__](https://nbviewer.jupyter.org/github/Akarvardar/VERSATILE_NEURAL_NETWORK_SOLVER/blob/master/NB00.ipynb): Network with no hidden layers (logistic regression)
-- __NB01__: Network with one hidden layer
-- __NB02__: Network with two hidden layers
-- __NB03__: Network with three hidden layers
-- __NB04__: Network with three hidden layers combined with polynomial regression
-- __NB05__: Network with three hidden layers, alternative algorithms
-- __NB06__: Handling big datafiles
-- __NB07__: Appendix - Simple examples on individual methods
+- [__NB01__](https://nbviewer.jupyter.org/github/Akarvardar/VERSATILE_NEURAL_NETWORK_SOLVER/blob/master/NB01.ipynb): Network with one hidden layer
+- [__NB02__](https://nbviewer.jupyter.org/github/Akarvardar/VERSATILE_NEURAL_NETWORK_SOLVER/blob/master/NB02.ipynb): Network with two hidden layers
+- [__NB03__](https://nbviewer.jupyter.org/github/Akarvardar/VERSATILE_NEURAL_NETWORK_SOLVER/blob/master/NB03.ipynb): Network with three hidden layers
+- [__NB04__](https://nbviewer.jupyter.org/github/Akarvardar/VERSATILE_NEURAL_NETWORK_SOLVER/blob/master/NB04.ipynb): Network with three hidden layers combined with polynomial regression
+- [__NB05__](https://nbviewer.jupyter.org/github/Akarvardar/VERSATILE_NEURAL_NETWORK_SOLVER/blob/master/NB05.ipynb): Network with three hidden layers, alternative algorithms
+- [__NB06__](https://nbviewer.jupyter.org/github/Akarvardar/VERSATILE_NEURAL_NETWORK_SOLVER/blob/master/NB06.ipynb): Handling big datafiles
+- [__NB07__](https://nbviewer.jupyter.org/github/Akarvardar/VERSATILE_NEURAL_NETWORK_SOLVER/blob/master/NB07.ipynb): Appendix - Simple examples on individual methods
 
 ## Datasets
 The datasets we will be using in example notebooks are listed below along with their number of samples, features, and classes. We have three sets of data grouped based on the file sizes. For "Medium" and "Big" files, independent test files are available as well as the training files. In most instances, the number of samples in the test files is about the quarter of those in the training files:<br>
