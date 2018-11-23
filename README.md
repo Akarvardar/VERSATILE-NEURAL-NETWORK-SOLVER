@@ -60,7 +60,6 @@ __Detailed outline of the example notebooks:__
 
 ## Datasets
 The datasets we will be using in the example notebooks are listed below along with their number of samples, features, and classes. We have three sets of data ("Small", "Medium", and "Big") grouped in three different folders under folder "Data" based on the file sizes.  For "Medium" and "Big" files, independent test files are available along with the training files. In most instances, the number of samples in the test files is about the quarter of those in the training files:
-
 <br>![dataspecs image](Images/DataSpecs.png)<br>
 
 - __"Medium"__ files are those we will use the most heavily in the example notebooks. In this set of files, the number of features is equal to 2, hence it is possible to visualize the decision boundary and overlay it with scatter plots. The files have varying complexity as suggested by the filenames. Three of the files have more than 2 classes. Number of samples varies from around 100 to a few 100. Below the scatter plots for the 15 "Medium" files are shown and different classes were distinguished with different colors. 
