@@ -1,5 +1,5 @@
 # VERSATILE NEURAL NETWORK SOLVER (VNNS)
-[VNNS](https://nbviewer.jupyter.org/github/Akarvardar/VERSATILE_NEURAL_NETWORK_SOLVER/blob/master/vnns.ipynb) is a neural network solver written in Python 3.5. Key features of the code, its organization, the content of the example notebooks, and the datasets used to generate the examples were explained in the following.
+[__VNNS__](https://nbviewer.jupyter.org/github/Akarvardar/VERSATILE_NEURAL_NETWORK_SOLVER/blob/master/vnns.ipynb) is a neural network solver written in Python 3.5. Key features of the code, its organization, the content of the example notebooks, and the datasets used to generate the examples were explained in the following.
 
 _For best readability, it is recommended to open the notebooks in this repository under nbviewer using the links embedded in this file rather than rendering them under Github. Also, Chrome is the browser of choice._
 
