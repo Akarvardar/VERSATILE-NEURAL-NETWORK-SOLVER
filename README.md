@@ -1,5 +1,8 @@
 # VERSATILE NEURAL NETWORK SOLVER (VNNS)
-[VNNS](https://nbviewer.jupyter.org/github/Akarvardar/VERSATILE_NEURAL_NETWORK_SOLVER/blob/master/vnns.ipynb) is a neural network solver written in Python 3.5. Key features of the code, its organization, the content of the example notebooks, and the datasets used to generate the examples were explained in the following. 
+[VNNS](https://nbviewer.jupyter.org/github/Akarvardar/VERSATILE_NEURAL_NETWORK_SOLVER/blob/master/vnns.ipynb) is a neural network solver written in Python 3.5. Key features of the code, its organization, the content of the example notebooks, and the datasets used to generate the examples were explained in the following.
+
+_**For best readability, it is recommended to open the notebooks in this repository under nbviewer using the links provided in this README file rather than rendering them under Github. Also, Chrome is the browser of choice.**_
+
 ## Key features
 The primary function of VNNS is to find out the optimal set of hyperparameters for a particular classification problem and then calculate the network parameters using those hyperparameters. VNNS seeks to minimize the user effort across the entire classification process, from the pre-processing of a .csv datafile to achieving a robust model along with the associated training and test scores. Model accuracy and simplicity are co-optimized in VNNS. 
 
@@ -61,16 +64,19 @@ The datasets we will be using in example notebooks are listed below along with t
 <br>![dataspecs image](Images/DataSpecs.png)<br>
 
 - __"Medium"__ files are those we will use the most heavily in the example notebooks. In this set of files, the number of features is equal to 2, hence it is possible to visualize the decision boundary and overlay it with scatter plots. The files have varying complexity as suggested by the filenames. Three of the files have more than 2 classes. Number of samples is mostly at 100-a few 100 range. Below the scatter plots for the 15 "medium" files are shown and different classes were distinguished with different colors. 
+
 <br>![scatter image](Images/TrainingDataSets.png)<br>
-- __"Big"__ files are typically distinguished with their very high number of features. In addition, two of the files feature number of classes up to 6 and 10. Also the number of samples is above 1000 for two of the files. "Big" files were only used in NB06 and NB07.
+
+- __"Big"__ files are typically distinguished with their very high number of features. In addition, two of the files feature number of classes up to 6 and 10. Also the number of samples is above 1000 for two of the files. "Big" files were only used in NB06 and NB07. This particular folder, unlike the folders Medium and Small, could not be uploaded under Data folder due to its size.
 <br><br>
 - __"Small"__ files have typically less than 10 samples and they were used only in NB07 to explain some of the methods of class PreProcess().
 
 ## Acknowledgments
-- Andrew Ng's Machine Learning Course and Deep Learning Specialization in Coursera (have been by far the most useful resources to put together VNNS,)
+- Andrew Ng's Machine Learning Course and Deep Learning Specialization in Coursera (have been by far the most useful resources to put together VNNS),
 - Developers who have shared their Python and AI solutions online,
 - Eric Matthews' book, Python Crash Course: A Hands-On, Project-Based Introduction to Programming,
-- Sebastian Raschka's book, Python Machine Learning.
+- Sebastian Raschka's book, Python Machine Learning,
+- Ng's Coursera materials, Raschka's book, and scikit-learn were also acknowledged for datasets. 
 
 
 
